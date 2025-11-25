@@ -97,7 +97,7 @@ Halaman ini hanya dapat diakses user untuk
 
 ## 🖥️ Teknologi yang Digunakan
 
-- **Frontend:** HTML, CSS, Bootstrap  
+- **Frontend:** HTML, CSS, Bootstrap, Js
 - **Backend:** PHP / Laravel  
 - **Database:** MySQL  
 - **Tools:**
