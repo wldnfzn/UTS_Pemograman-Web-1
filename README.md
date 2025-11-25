@@ -93,20 +93,6 @@ Halaman ini hanya dapat diakses user untuk
 
 
 ---
-
-## 🧰 CRUD API
-
-Website ini terintegrasi dengan REST API yang mendukung operasi CRUD berikut:
-
-| Method | Endpoint | Fungsi |
-|---|---|---|
-| GET | `/api/items` | Mengambil semua data |
-| POST | `/api/items` | Menambah data baru |
-| PUT | `/api/items/{id}` | Mengedit data |
-| DELETE | `/api/items/{id}` | Menghapus data |
-
-> Catatan: Pengujian API belum dilakukan saat README ini dibuat.
-
 ---
 
 ## 🖥️ Teknologi yang Digunakan
