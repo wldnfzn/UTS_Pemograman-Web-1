@@ -1,19 +1,127 @@
-<img width="1912" height="1006" alt="image" src="https://github.com/user-attachments/assets/c7e2333e-7e6b-4289-902b-302b0009efe3" />
+# 📌 Map Battery Site – Company Information Website & CRUD API
 
-<img width="1908" height="1002" alt="image" src="https://github.com/user-attachments/assets/296b0edf-25a4-4585-93de-80c41a683a09" />
+Project ini merupakan tugas untuk memenuhi UTS Mata Kuliah Pemograman Web 1 yang di ampu oleh Ibu Nova Agustina, S.T., M.Kom.
+Website saya ini berisi informasi perusahaan PT. Multidaya Anugrah Perkasa yang dilengkapi dengan fitur autentikasi (Login & Registrasi) serta integrasi CRUD API. Website dibangun menggunakan Bahasa Pemograman PHP dengan Framwork **Laravel** dan Sedikit CSS menggunakan **Bootstrap**, sehingga tampilan modern, responsif, dan mudah dikembangkan.
 
-<img width="1883" height="1004" alt="image" src="https://github.com/user-attachments/assets/9322412a-8b55-43f2-bb08-2f4016e95390" />
+---
 
-<img width="1902" height="946" alt="image" src="https://github.com/user-attachments/assets/10d46eb5-de8c-406c-957c-a0773a418132" />
+## 🚀 Fitur Utama
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ffcb2cf1-96e1-4fab-a336-9e35c30e04a2" />
+---
 
-<img width="1892" height="1009" alt="image" src="https://github.com/user-attachments/assets/2c2fcdd3-8a4d-47fd-9149-4fdbb5fc823e" />
+### 1️⃣ Halaman Home (Landing Page)
 
-<img width="1888" height="1006" alt="image" src="https://github.com/user-attachments/assets/d26a5a25-c1a8-4a7d-8596-a148bbf59f52" />
+Menampilkan daftar informasi perusahaan yang disajikan dalam bentuk card.  
+User dapat mengklik salah satu card untuk melihat detail informasinya.
 
-<img width="1895" height="1001" alt="image" src="https://github.com/user-attachments/assets/6cbda537-7759-4312-8a49-48f72ddaa532" />
+**Tampilan:**
 
-<img width="1882" height="868" alt="image" src="https://github.com/user-attachments/assets/2ab5e78f-4981-4768-a19d-6545fc2b2d9e" />
 
-<img width="1887" height="1009" alt="image" src="https://github.com/user-attachments/assets/069f3f48-883e-4844-a937-0f1961f39bc0" />
+![Home](https://github.com/user-attachments/assets/c7e2333e-7e6b-4289-902b-302b0009efe3)
+<img width="1908" height="1002" alt="image" src="https://github.com/user-attachments/assets/34423807-596a-4c0d-90ba-12c6add05af4" />
+
+<img width="1894" height="1007" alt="image" src="https://github.com/user-attachments/assets/1f59a4d2-e3be-4e62-8a40-fd07ef6ba2d9" />
+
+
+---
+
+### 2️⃣ Halaman Detail Informasi
+
+Halaman ini muncul saat user memilih salah satu data dari halaman utama.  
+Berisi:
+
+- Informasi Perusahaan
+- Visi dan Misi Perusahaan
+
+**Tampilan:**
+
+![Detail Page 2/about]<img width="1883" height="1004" alt="image" src="https://github.com/user-attachments/assets/525fa490-7f9d-4860-9227-58c6ab8c6b8c" />
+
+
+---
+
+### 3️⃣ Halaman Login
+
+Digunakan untuk login user dengan email dan password.  
+Jika berhasil, user diarahkan ke halaman Dashboard.
+
+**Tampilan:**
+
+![Login]<img width="1892" height="1009" alt="image" src="https://github.com/user-attachments/assets/7d7b43b1-5eac-4bdc-9ac7-82cd10b403bf" />
+![Login Gagal]<img width="1895" height="1001" alt="image" src="https://github.com/user-attachments/assets/17c7985d-9e8d-4646-b460-0408959b5395" />
+
+
+
+---
+
+### 4️⃣ Halaman Registrasi
+
+Digunakan user untuk membuat akun baru.  
+Form terdiri dari:
+
+- Nama
+- Email
+- Password
+
+**Tampilan:**
+
+![Register]<img width="1888" height="1006" alt="image" src="https://github.com/user-attachments/assets/2b7383e5-853d-40d4-882e-ac993ba775c7" />
+
+
+---
+
+### 5️⃣ Halaman Services 
+
+Halaman ini hanya dapat diakses user untuk
+- Mengakses data
+- Mengelola informasi
+- Mencari informasi layanan perusahaan
+
+**Tampilan:**
+
+<img width="1902" height="946" alt="image" src="https://github.com/user-attachments/assets/ee37eb47-1af1-407d-952c-29174db3c171" />
+
+### 5️⃣ Halaman Contact
+
+Halaman ini hanya dapat diakses user untuk
+- Menghubungi Perusahaan
+
+**Tampilan:**
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/07cb5763-84c7-4247-a1e5-6f6df3aefa5c" />
+
+
+
+---
+
+## 🧰 CRUD API
+
+Website ini terintegrasi dengan REST API yang mendukung operasi CRUD berikut:
+
+| Method | Endpoint | Fungsi |
+|---|---|---|
+| GET | `/api/items` | Mengambil semua data |
+| POST | `/api/items` | Menambah data baru |
+| PUT | `/api/items/{id}` | Mengedit data |
+| DELETE | `/api/items/{id}` | Menghapus data |
+
+> Catatan: Pengujian API belum dilakukan saat README ini dibuat.
+
+---
+
+## 🖥️ Teknologi yang Digunakan
+
+- **Frontend:** HTML, CSS, Bootstrap  
+- **Backend:** PHP / Laravel  
+- **Database:** MySQL  
+- **Tools:**
+  - Git & GitHub, Vs Code, Postman
+
+---
+
+## 📂 Cara Menjalankan Project
+
+### 🔻 Clone Repo
+```bash
+git clone <repository_url>
+cd map-battery-site
